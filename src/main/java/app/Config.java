@@ -65,5 +65,12 @@ public class Config {
         return new GetAverageGradeUseCase(gradeDataBase);
     }
 
-    // TODO Task 4: add code for the new GetTopGradeUseCase following the same pattern as the other use cases above.
+    /**
+     * Get the GetATopGradeUseCase object.
+     * @return GetATopGradeUseCase object.
+     */
+    public GetTopGradeUseCase getTopGradeUseCase() {
+        return new GetTopGradeUseCase(gradeDataBase);
+    }
+
 }
