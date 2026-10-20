@@ -23,7 +23,7 @@ public class GetToken {
         }
         String response = "";
         try {
-            response = example.run(gradeAPISignUpURL, "username", userName);
+            response = example.run(gradeAPISignUpURL, "talhaefeustun", userName);
         }
         catch (IOException e) {
             System.out.println(e.getMessage());
